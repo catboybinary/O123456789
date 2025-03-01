@@ -18,14 +18,14 @@ modId = "neoforge"
 type = "required"
 versionRange = "[21,)"
 ordering = "NONE"
-side = "BOTH"
+side = "CLIENT"
 
 [[dependencies.o123456789]]
 modId = "minecraft"
 type = "required"
 versionRange = "[1.21.2, 1.22)"
 ordering = "NONE"
-side = "BOTH"
+side = "CLIENT"
 
 
 [[mixins]]
