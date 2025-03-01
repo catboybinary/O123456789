@@ -12,7 +12,7 @@
   },
   "license": "GPL-3.0",
   "icon": "assets/o123456789/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "meow.binary.o123456789.fabric.O123456789Fabric"
@@ -26,7 +26,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.16.10",
-    "minecraft": "~1.21",
+    "minecraft": ">=1.21.2 <1.22",
     "java": ">=21",
     "fabric-api": "*"
   },
